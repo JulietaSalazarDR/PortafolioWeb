@@ -1,0 +1,221 @@
+<!DOCTYPE html> <!-- Define la versión de html que se esta usando -->
+<html lang="es">
+    <head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset= "utf-8"> <!-- El lenguaje que de está usando -->
+    <title>Contacto</title> <!-- Maquetaión por posiciones -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- para boostrap y abajo colocar la carpeta -->
+        <link rel="stylesheet" href="css/estilos.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link href="Slider/librerias_slider/js-image-slider.css" rel="stylesheet" type="text/css"/>
+        <script src="Slider/librerias_slider/js-image-slider.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="Lightbox/librerias_lightbox/css/lightbox.min.css">
+        <script src="Lightbox/librerias_lightbox/js/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="AnimateCSS/animate.min.css">
+        		      
+    </head> <!-- permite cargar la información de transfondo -->
+<body>
+    
+    <div class="container" id="caja3">
+
+        <div class="row text-center" id="Header"> 
+            <div class="col-12">
+                <a href="Index.html">
+                <img src="imagenes/Header.png" alt="Header del documento" class="animate__animated animate__backInDown img-fluid"></a>
+            </div>
+        </div>
+        
+        <div class="row" id="Título">
+            <div class="col-12">
+                <b><h2>Contacto</h2></b>
+            </div>
+        </div>
+
+        <div class="row text-center" id="Redes">
+            <div class="col-3" >
+                <a href="https://www.facebook.com/JulySlzr/" target="_blank">
+                <img src="imagenes/Ico1.png" alt="..." width="100px" class="animate__animated animate__flipInX img-fluid"> 
+                    <br> Slzr Julieta
+                </a>
+            </div>
+            <div class="col-3">
+                    <a href="https://www.instagram.com/bichiyal_slzr/?hl=es-la" target="_blank">
+                    <img src="imagenes/Ico2.png" alt="..." width="100px" class="animate__animated animate__flipInX img-fluid"> 
+                    <br> Slzr Julieta (@bichiyal_slzr)
+                    </a>
+            </div>
+            <div class="col-3">
+                <a href="https://wa.me/qr/UFNKRDV6AVWZM1" target="_blank">
+                <img src="imagenes/Ico3.png" alt="..." width="100px" class="animate__animated animate__flipInX img-fluid"> 
+               <br>+52 55 4455 5768
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.zedge.net/profile/fcd94145-31ec-40b6-9725-2e6148938e31" target="_blank">
+                <img src="imagenes/Ico4.png" alt="..." width="100px" class="animate__animated animate__flipInX img-fluid"> 
+                <br>JulsS12
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-4" id="Título2">
+            <div class="col-12">
+                <h2>Dudas/comentarios</h2>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="Formulario">
+                <form action="enviaCorreo.php" method="POST">
+
+                    <div class="form-group row">
+                        <label for="nombre" class="col-3 col-form-label"><b> Nombre</b></label>
+                        <div class="col-8">
+                            <input id="nombre" name="nombre" type="text" placeholder="Nombre completo" maxlength="50" class="form-control" required autofocus>
+                        </div>
+                        <div class="col-1">
+                            <h2>*</h2>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="correo" class="col-3 col-form-label"><b> Correo</b></label>
+                        <div class="col-8">
+                            <input id="correo" name="correo" type="email" placeholder="Dirección de correo electrónico" maxlength="30" class="form-control" required>
+                        </div>
+                        <div class="col-1">
+                            <h2>*</h2>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="telefono" class="col-3 col-form-label"><b> Teléfono</b></label>
+                        <div class="col-8">
+                            <input id="telefono" name="telefono" type="tel" placeholder="Celular/oficina/otro" maxlength="15" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="Comentario" class="col-3 col-form-label" ><b> Comentarios</b></label>
+                        <div class="col-8">
+                            <textarea class="form-control" id="Comentario" cols="10" rows="2" placeholder="Escribe aquí" required></textarea>
+                        </div>
+                        <div class="col-1">
+                            <h2>*</h2>
+                        </div>
+                    </div>  
+                    
+                    <div class="row" id="Checkk">
+                        <div class="col-6 ">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Diseño web
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Diseño ilustración
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="Checkk">
+                        <div class="col-6 ">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Diseño publicitario
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6 ">
+                            <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Diseño editorial
+                        </label>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="Checkk">
+                        <div class="col-6 ">
+                              <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Diseño en animación 2d
+                        </label>
+                    </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Diseño en embajale
+                        </label>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="row" id="Checkk">
+                        <div class="col-6 ">
+                            <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Fotografía
+                        </label>
+                    </div>
+                        </div>
+                        <div class="col-6 ">
+                            <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Edición de imagen
+                        </label>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-right mt-4">
+                        <button type="submit" class="btn btn-outline-light">Enviar</button>
+                        <h5>* Campos obligatorios</h5>
+                    </div>
+                </form>
+
+
+
+            </div>
+        </div> 
+
+
+        <div class="row text-center" id="Menu2">
+                    <div class="col-4" id="Azul2">
+                        <a href="Semblanza.html">Semblanza</a>
+                    </div>
+                    <div class="col-4"  id="Amarillo2">
+                        <a href="Portafolio.html">Portafolio</a>
+                    </div>
+                    <div class="col-4"  id="Rosa2">
+                        <a href="Contacto.html"><font color="#ffffff"><b>Contacto</b></font></a>
+                    </div>             
+        </div>
+
+    </div>
+
+    <div class="pie mt-2 text-center" id="Legales">
+        <div class="col-12 poe">
+            <p>Diseñadora: Julieta Vega Salazar | 2021 | julietasalazardr@gmail.com | Todos los derechos reservados | Asesor: Erick D Chino</p>
+        </div>
+    </div>
+
+<script src="js/jquery-3.5.1.slim.min.js"></script> <!-- complemeto de boostrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body> <!-- Colocamos la información que el usuario va a ver en la pantalla -->
+</html>

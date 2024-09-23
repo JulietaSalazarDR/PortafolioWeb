@@ -1,0 +1,353 @@
+h1 {font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #0d0d0d;
+    font-size: 90pt;
+    line-height: 433.33px;
+}
+p  {font-family: 'Lato', sans-serif;
+    color: #0d0d0d;
+}
+body{
+    margin: 0px;
+    background-repeat: repeat; 
+    background-image: url(../imagenes/Patron.png);
+}
+#Menu a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #0d0d0d;
+    font-size: 60pt;
+    line-height: 433.33px;
+	text-decoration: none;
+    width: 1200px;
+}
+#Menu a:hover{
+    color:  #ffffff; 
+    transition: 2s;
+}
+
+#Menu2 a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #0d0d0d;
+    font-size: 20pt;
+    line-height: 80px;
+	text-decoration: none;
+    
+}
+#Menu2 a:hover{
+    color:  #ffffff; 
+    transition: 2s;
+}
+
+#Redes a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #0d0d0d;
+}
+#Redes a:hover{
+    color:  #ffffff; 
+    transition: 2s;
+}
+#Formulario {
+    padding-left: 70px ;
+    padding-right: 30px;
+    font-size: 11pt;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#Formulario p{
+    font-size: 7pt;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#caja1 {
+    background-color: #65c0e0;
+}
+
+#caja2 {
+    background-color: #f2a71b;
+}
+
+#caja3 {
+    background-color: #f20587;
+}
+
+#Título h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+	color: #ffffff; 
+	text-align: left;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+#Título2 h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+	color: #0d0d0d; 
+	text-align: left;
+    font-size: 30px;
+    margin-left: 50px; 
+}
+#Listado a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #0d0d0d;
+   
+}
+#Listado a:hover{
+    color:  #ffffff; 
+    transition: 2s;
+}
+#Liti {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+
+#LogoMayor {
+    background-color: #0d0d0d;
+    width: 600px;
+    height: 1300px;
+    padding-right: 20px;
+}
+#Azul {
+    background-color: #65c0e0;
+    width: 600px;
+    height: 433.33px;   
+}
+#Azul2 {
+    background-color: #65c0e0;
+    height: 80px;   
+}
+#Amarillo {
+    background-color: #f2a71b;
+    width: 600px;
+    height: 433.33px; 
+}
+#Amarillo2 {
+    background-color: #f2a71b;
+    height: 80px; 
+}
+#Rosa {
+    background-color: #f20587;
+    width: 600px;
+    height: 433.33px;
+}
+#Rosa2 {
+    background-color: #f20587;
+    height: 80px;
+}
+
+#Legales p {
+    font-size: 8pt;
+    background-color: transparent 2px;
+    color: #ffffff;
+}
+#Checkk {
+    padding-left: 20px;
+    padding-left: 20px;
+    font-size: 10pt;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576.98px) {
+    #ContenidoM {
+        display: block;
+    }
+    #Contenido1 {
+        display: none;
+    }
+    #Texto p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        margin-left: 50px; 
+        display: none;
+    }
+    #Carru {
+        padding-left: 120px;
+        padding-top: 30px;
+        display: none;
+    }
+    
+    #Texto1 p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        display: block;
+    }
+    #Carru1 {
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (min-width: 376px) { 
+    #Contenido1 {
+        display: block;
+    }
+    #ContenidoD {
+        display: none;
+    }
+    #Texto p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        margin-left: 50px; 
+        display: none;
+    }
+    #Carru {
+        padding-left: 120px;
+        padding-top: 30px;
+        display: none;
+    }
+   
+    #Texto1 p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        display: block;
+    }
+    #Carru1 {
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    #Contenid1M {
+        display: none;
+    }
+    #Contenio1D {
+        display: block;
+    }
+    #Texto p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        margin-left: 50px; 
+        display: none;
+    }
+    #Carru {
+        padding-left: 120px;
+        padding-top: 30px;
+        display: none;
+    }
+    #Texto1 p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        display: block;
+    }
+    #Carru1 {
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+   
+}
+
+
+@media (min-width: 992px) { 
+    #Contendo1M {
+        display: none;
+    }
+    #Conteido1D {
+        display: block;
+    }
+    #Texto p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        margin-left: 50px; 
+        display: none;
+    }
+    #Carru {
+        padding-left: 120px;
+        padding-top: 30px;
+        display: none;
+    }
+    
+    #Texto1 p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        display: block;
+    }
+    #Carru1 {
+        padding: 50px;
+        text-align: center;
+        display: block;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    #Contnido1M {
+        display: none;
+    }
+    #Conenido1D {
+        display: block;
+    } 
+    #Texto p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12.5px;
+        margin-left: 50px; 
+        display: block;
+    }
+    #Carru {
+        padding-left: 120px;
+        padding-top: 30px;
+        display: block;
+    }
+    #Texto1 p{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        display: none;
+    }
+    #Carru1 {
+        padding: 50px;
+        text-align: center;
+        display: none;
+    }
+ }
